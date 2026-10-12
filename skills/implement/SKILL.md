@@ -21,6 +21,6 @@ disable-model-invocation: true
 
 ## 收尾
 
-- 调 `mattpocock-skills:code-review` 审本次改动，修完再跑一次全量
+- 调 `code-review` 审本次改动，修完再跑一次全量
 - 提交到当前分支。推不推、怎么合入等用户定；推的话走 PR，不直推主线，也不推半成品
 - 报告带前后对比：测试数、代码行数，涨了就说涨了，说明原因
