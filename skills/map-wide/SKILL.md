@@ -58,9 +58,9 @@ disable-model-invocation: true
 
 | 类型 | 谁做 | 怎么解决 |
 |---|---|---|
-| research | agent 自己 | 子 agent 调 research 查资料，结论放 `research/<名>` 分支（推送，不开 PR），票里放指针 |
+| research | agent 自己 | 子 agent（`model: sonnet`）调 research 查资料：逐字引用出处，找不到写「未找到」；主控抽查 3–5 条原句。结论放 `research/<名>` 分支（推送，不开 PR），票里放指针 |
 | prototype | 和用户一起 | 调 prototype 做个粗糙的东西给用户看了再定 |
-| grilling | 和用户一起 | 默认类型。调 `arnold-skills:grill-wide` 和 domain-modeling |
+| grilling | 和用户一起 | 默认类型。调 `arnold-skills:grill-wide` 和 domain-modeling；术语只用用户团队已有的词，不造新词 |
 | task | 能自己做就自己做，否则给用户一张清单 | 做决定前必须先完成的手工活；答案记下做了什么、后面的票要用的事实 |
 
 和用户一起的票只在真实对话里解决，agent 不能替用户回答。grill-wide 用在一张票上：底片 = 地图 + 这张票 + 相关的已关票；决定表写进这张票的答案。
