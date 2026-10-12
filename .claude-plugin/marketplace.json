@@ -1,0 +1,14 @@
+{
+  "name": "arnold-skills",
+  "owner": {
+    "name": "Arnold Zhou",
+    "url": "https://github.com/arnold117"
+  },
+  "plugins": [
+    {
+      "name": "arnold-skills",
+      "description": "Arnold 的个人 Claude Code skill 库",
+      "source": "./"
+    }
+  ]
+}

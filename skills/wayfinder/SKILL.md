@@ -58,6 +58,8 @@ disable-model-invocation: true
 
 和用户一起的票只能在真实对话里解决，agent 不能替用户回答。
 
+本文的 grill-wide 指 `arnold-skills:grill-wide`，调 Skill 工具时写全名。
+
 grill-wide 用在一张票上时：底片 = 地图 + 这张票 + 相关的已关票；决定表写进这张票的答案；第 6–7 步（还原、收件人 review）留到终点再做。
 
 ## 迷雾和不做的

@@ -1,0 +1,9 @@
+{
+  "name": "arnold-skills",
+  "description": "Arnold 的个人 Claude Code skill 库：grill-wide、wayfinder、lean-verify",
+  "author": {
+    "name": "Arnold Zhou",
+    "url": "https://github.com/arnold117"
+  },
+  "repository": "https://github.com/arnold117/Arnold-SKILLS"
+}
